@@ -179,7 +179,9 @@ nav a.active, nav a:hover { border-bottom: 2px solid var(--color-accent); }
 
 .case-hero img { max-width: 100%; border-radius: var(--radius); margin-bottom: 1rem; }
 .case-content {
-  max-width: 800px; margin: auto; padding: var(--space-section) 2rem;
+  max-width: 1000px; 
+  margin: auto; 
+  padding: var(--space-section) 2rem;
 }
 .case-content section + section { margin-top: 3rem; }
 .case-content img { width: 100%; border-radius: var(--radius); margin: 1rem 0; }
