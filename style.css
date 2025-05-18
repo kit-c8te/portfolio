@@ -41,12 +41,16 @@ nav a.active, nav a:hover { border-bottom: 2px solid var(--color-accent); }
 /* Projects */
 .projects {
   padding: var(--space-section) 2rem;
-  max-width: 1000px; margin: auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .project-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  margin: 0 auto;           
+  padding: 0 1rem;         
+  width: auto;
 }
 .project-card {
   border: 1px solid #eee; padding: 1rem;
