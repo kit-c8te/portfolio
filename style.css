@@ -12,7 +12,7 @@ body {
   font-family: var(--font-base);
   color: var(--color-text);
   margin: 0;
-  padding-top: 4rem;
+  padding-top: 5rem;
   background: #fff;
   line-height: 1.6;
 }
@@ -27,9 +27,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
-  background: #fff;                  /* make sure it’s opaque */
+  background: #fff;                /* solid background so content scrolls underneath */
   border-bottom: 2px solid var(--color-accent);
-  z-index: 1000;                     /* float above everything */
+  z-index: 1000;                   /* ensure it floats above all other elements */
 }
 
 .logo { font-weight: bold; font-size: 1.2rem; }
