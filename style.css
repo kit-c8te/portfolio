@@ -11,20 +11,27 @@
 body {
   font-family: var(--font-base);
   color: var(--color-text);
-  margin: 0; padding: 0;
+  margin: 0;
+  padding-top: 4rem;
   background: #fff;
   line-height: 1.6;
 }
 
 /* Header */
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
-  display: flex; justify-content: space-between;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2rem;
+  background: #fff;                  /* make sure it’s opaque */
   border-bottom: 2px solid var(--color-accent);
+  z-index: 1000;                     /* float above everything */
 }
+
 .logo { font-weight: bold; font-size: 1.2rem; }
 nav ul { display: flex; gap: 1.5rem; list-style: none; margin: 0; }
 nav a { text-decoration: none; color: var(--color-text); padding-bottom: .25rem; font-weight: 500; }
