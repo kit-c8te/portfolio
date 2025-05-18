@@ -20,13 +20,13 @@ body {
 /* Header */
 header {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0; left: 0;
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 3rem;
   background: #fff;                /* solid background so content scrolls underneath */
   border-bottom: 2px solid var(--color-accent);
   z-index: 1000;                   /* ensure it floats above all other elements */
