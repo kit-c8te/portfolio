@@ -50,7 +50,7 @@ nav a.active, nav a:hover { border-bottom: 2px solid var(--color-accent); }
 /* Projects */
 .projects {
   padding: var(--space-section) 2rem;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .project-list {
@@ -70,7 +70,7 @@ nav a.active, nav a:hover { border-bottom: 2px solid var(--color-accent); }
 
 /* About */
 .about-page {
-  max-width: 800px; margin: var(--space-section) auto; padding: 0 2rem;
+  max-width: 1200px; margin: var(--space-section) auto; padding: 0 2rem;
 }
 .about-header {
   display: flex; align-items: center; gap: 2rem; margin-bottom: 2.5rem;
@@ -111,7 +111,7 @@ nav a.active, nav a:hover { border-bottom: 2px solid var(--color-accent); }
 .case-overview {
   display: flex; flex-wrap: wrap;
   gap: 2rem;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
   padding: 2rem;
 }
@@ -123,7 +123,8 @@ nav a.active, nav a:hover { border-bottom: 2px solid var(--color-accent); }
 .case-two-col {
   display: flex; flex-wrap: wrap;
   gap: 2rem;
-  max-width: 1000px; margin: auto;
+  max-width: 1200px; 
+  margin: auto;
   padding: 2rem;
 }
 .case-two-col > div {
@@ -135,7 +136,7 @@ nav a.active, nav a:hover { border-bottom: 2px solid var(--color-accent); }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
-  max-width: 1000px; margin: 2rem auto;
+  max-width: 1200px; margin: 2rem auto;
 }
 
 /* Persona card */
@@ -155,7 +156,9 @@ nav a.active, nav a:hover { border-bottom: 2px solid var(--color-accent); }
   margin: 1rem; color: var(--color-text);
 }
 .persona-age {
-  font-weight: 400; font-size: 0.9rem; color: #666;
+  font-weight: 400; 
+  font-size: 0.9rem; 
+  color: #666;
 }
 .persona-quote {
   margin: 2rem auto 0;
@@ -179,7 +182,7 @@ nav a.active, nav a:hover { border-bottom: 2px solid var(--color-accent); }
 
 .case-hero img { max-width: 100%; border-radius: var(--radius); margin-bottom: 1rem; }
 .case-content {
-  max-width: 1000px; 
+  max-width: 1200px; 
   margin: auto; 
   padding: var(--space-section) 2rem;
 }
